@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.left-img {
+    background-image: url("/neom-AQgbiXczUVg-unsplash.jpg") !important;
+    flex-basis: 30%;
+}
